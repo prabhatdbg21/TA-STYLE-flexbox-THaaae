@@ -60,6 +60,9 @@ table {
 header{
 	background-color: blue;
 	color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 .header1{
 	font-size: 50px;
@@ -77,6 +80,9 @@ header{
 }
 
 /* main */
+main{
+	padding-top: 130px;
+}
 article{
 	display: flex;
 	width: 90%;
@@ -84,6 +90,7 @@ article{
 }
 .artical-width{
 	width: 47%;
+	padding-bottom: 20px;
 }
 .artical-width img{
 	width: 100%;
@@ -119,4 +126,19 @@ footer{
 	font-size: 30px;
 	padding: 40px;
 	color: white;
+}
+.box{
+	background-color: rebeccapurple;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	font-size: 25px;
+	line-height: 70px;
+}
+.box a{
+	text-decoration: none;
+	color: pink;
 }
